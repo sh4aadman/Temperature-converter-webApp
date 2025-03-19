@@ -23,9 +23,27 @@
     ></script>
   </head>
   <body>
-    Temp Conv
-    <section>
-      <select name="" id=""></select>
-    </section>
+    <!-- Dropdown to select preferred unit of temperature -->
+    <header>
+      <label for="units">Temperature Unit:</label>
+      <select id="units">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </header>
+
+    <!-- Output of the converted temperature -->
+    <main>
+        <input type="number" name="temp" id="temp">°<span>C</span>
+        <p>Sunny</p>
+    </main>
+    <footer>
+        <h5>Sunday</h5>
+        <p>Date</p>
+    </footer>
+
+    <!-- JavaScript Integration -->
+     <script src="./scripts/scripts.js"></script>
   </body>
 </html>
